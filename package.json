@@ -1,0 +1,24 @@
+{
+  "name": "git-actions",
+  "version": "1.0.0",
+  "description": "Esto es solo para integracion continua",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwin-fuentes/git-actions.git"
+  },
+  "author": "Edwin-Fuentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwin-fuentes/git-actions/issues"
+  },
+  "homepage": "https://github.com/edwin-fuentes/git-actions#readme",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "node": "^14.2.0"
+  }
+}
